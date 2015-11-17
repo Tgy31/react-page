@@ -27,10 +27,8 @@ var Dashboard = require('Dashboard')
 var Inbox = require('Inbox')
 var Calendar = require('Calendar')
 
-let history = createBrowserHistory();
-
 render((
-  <Router history={history}>
+  <Router>
     <Route path="/" component={App}>
       <IndexRoute component={Dashboard}/>
       <Route path="app" component={Dashboard}/>
