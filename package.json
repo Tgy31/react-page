@@ -1,0 +1,18 @@
+{
+  "name": "Welcom",
+  "version": "1.0.0",
+  "description": "Welcom React",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "nil"
+  },
+  "keywords": [
+    "welcom"
+  ],
+  "author": "Tanguy HELESBEUX",
+  "license": "MIT",
+}
