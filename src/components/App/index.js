@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from 'react-dom';
 import { Router, Route, Link, IndexRoute } from 'react-router';
-import createBrowserHistory from 'history/lib/createBrowserHistory';
+import createHashHistory from 'history/lib/createHashHistory';
 
 // require('./app.css');
 
@@ -26,8 +26,10 @@ var Dashboard = require('Dashboard')
 var Inbox = require('Inbox')
 var Calendar = require('Calendar')
 
+let history = createHashHistory({queryKey: false});
+
 render((
-  <Router>
+  <Router history={history}>
     <Route path="/" component={App}>
       <IndexRoute component={Dashboard}/>
       <Route path="app" component={Dashboard}/>
