@@ -15,7 +15,6 @@ var App = React.createClass({
             <li><Link to="/inbox">Inbox</Link></li>
             <li><Link to="/calendar">Calendar</Link></li>
           </ul>
-          Logged in as Jane
         </header>
         {this.props.children}
       </div>
