@@ -15,4 +15,7 @@
   ],
   "author": "Tanguy HELESBEUX",
   "license": "MIT",
+  "dependencies": {
+    "react": "^0.14.2"
+  }
 }
